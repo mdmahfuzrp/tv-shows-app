@@ -1,0 +1,96 @@
+#banner-showlist{
+    width: 100%;
+    height: 70vh;
+    background-image: url('https://raw.githubusercontent.com/thatanjan/netflix-clone-yt/youtube/media/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+#banner-showlist::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: .4;
+    z-index: -1;
+}
+#banner-showlist p{
+    max-width: 600px;
+}
+#swiper-cursor-style{
+    cursor: ew-resize;
+}
+#show-details-btn{
+    transition: .1s;
+}
+#show-details-btn:hover{
+    background-color: #9a2626 !important;
+}
+#show-details-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#show-details-container h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+#show-details-container h1{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+#details-card{
+    max-width: 640px;
+}
+.parent-my-bookings{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.single-my-booking{
+    max-width: 540px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid rgba(228, 120, 120, 0.482);
+    border-radius: 10px;
+}
+.parent-start-details{
+    align-items: center;
+    gap: 10px;
+}
+.my-booking-img{
+    width: 80px;
+    height: 80px;
+}.my-booking-img img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid rgba(255, 0, 0, 0.552);
+}
+.my-booking-info{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    line-height: 10px;
+}
+.my-booking-info p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.my-booking-info small{
+    line-height: 20px;
+}
+.my-booking-date{
+    font-weight: 500;
+}
