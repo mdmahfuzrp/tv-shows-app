@@ -38,7 +38,7 @@ const ShowList = () => {
                         clickable: true,
                     }}
                     breakpoints={{
-                        640: {
+                        480: {
                             slidesPerView: 2,
                             spaceBetween: 20,
                         },
